@@ -1,0 +1,43 @@
+venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+*.egg-info/
+dist/
+build/
+
+.vscode/
+.idea/
+*.swp
+2. Crea la estructura de carpetas:
+
+3. Crea archivos __init__.py en cada directorio de Python:
+
+1. Inicializa Git:
+
+2. Crea .gitignore:
+
+*.swo
+
+.env
+.env.local
+*.local
+
+data/vectorstore/
+*.faiss
+*.pkl
+
+logs/
+*.log
+
+.DS_Store
+
+.pytest_cache/
+.coverage
+htmlcov/
