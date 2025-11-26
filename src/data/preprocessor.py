@@ -36,16 +36,3 @@ class TextPreprocessor:
                 preprocessed_docs.append(Document(page_content=chunk, metadata=new_metadata))
         logger.info(f"Preprocessed {len(documents)} documents into {len(preprocessed_docs)} chunks.")
         return preprocessed_docs
-
-def main():
-    from src.data.loader import CorpusLoader
-    loader = CorpusLoader()
-    docs = loader.load_all()
-    preprocessor = TextPreprocessor()
-    cleaned_docs = preprocessor.preprocess_documents(docs)
-    print(f"\n✓ Preprocessed {len(cleaned_docs)} documents")
-    print(f"\nOriginal first doc: {docs[0].page_content[:100]}")
-    print(f"\nCleaned first doc: {cleaned_docs[0].page_content[:100]}")
-
-if __name__ == "__main__":
-    main()
