@@ -1,0 +1,39 @@
+Unit,Food_Cost,Wood_Cost,Gold_Cost,Stone_Cost,Total_Cost,HP,Melee_Attack,Pierce_Attack,Range,Attack_Speed,Melee_Armor,Pierce_Armor,Movement_Speed,Line_of_Sight,Unit_Type,Age,Training_Time,Building
+Villager,50,0,0,0,50,30,3,0,1,0.8,0,0,0.8,2,Civilian,Dark,25,Town Center
+Scout Cavalry,60,75,50,0,185,35,4,0,1,2.0,1,1,1.4,4,Cavalry,Feudal,30,Stable
+Militia,20,0,40,0,60,40,6,0,1,2.0,0,1,0.9,2,Infantry,Dark,20,Barracks
+Spearman,25,0,0,0,25,45,4,0,1,2.0,0,2,0.9,2,Infantry,Feudal,22,Barracks
+Pikeman,35,0,0,0,35,55,4,0,1,2.0,0,2,0.9,2,Infantry,Castle,27,Barracks
+Archer,0,25,45,0,70,30,6,6,4,2.0,0,0,1.0,6,Archer,Feudal,35,Archery Range
+Crossbowman,0,25,45,0,70,35,7,7,5,1.9,0,0,1.0,7,Archer,Castle,27,Archery Range
+Arbalest,0,25,45,0,70,40,8,8,6,1.9,0,0,1.0,8,Archer,Imperial,27,Archery Range
+Skirmisher,0,30,0,0,30,30,2,4,4,3.0,0,1,0.95,6,Archer,Feudal,22,Archery Range
+Elite Skirmisher,0,30,0,0,30,36,3,5,5,3.0,0,1,0.95,7,Archer,Castle,24,Archery Range
+Cavalry Archer,0,40,60,0,100,50,5,4,4,1.5,0,1,1.4,5,Cavalry,Castle,34,Archery Range
+Heavy Cavalry Archer,0,40,60,0,100,60,6,5,5,1.5,0,1,1.4,6,Cavalry,Imperial,27,Archery Range
+Knight,60,0,20,0,80,80,10,0,1,2.0,2,2,1.35,4,Cavalry,Feudal,24,Stable
+Cavalier,70,0,20,0,90,90,11,0,1,2.0,2,2,1.35,4,Cavalry,Castle,24,Stable
+Paladin,80,0,60,0,140,150,14,0,1,2.0,3,3,1.35,4,Cavalry,Imperial,35,Stable
+Camel Archer,0,35,60,0,95,50,5,0,4,1.5,0,1,1.4,5,Cavalry,Castle,25,Archery Range
+Heavy Camel Archer,0,35,60,0,95,60,6,0,5,1.5,0,1,1.4,6,Cavalry,Imperial,27,Archery Range
+Camel,55,0,20,0,75,45,12,0,1,2.0,0,0,1.4,4,Cavalry,Castle,24,Stable
+Heavy Camel,65,0,20,0,85,55,14,0,1,2.0,0,0,1.4,4,Cavalry,Imperial,25,Stable
+Siege Ram,0,160,0,0,160,150,5,0,0,1.0,0,0,0.5,6,Siege,Feudal,36,Siege Workshop
+Siege Tower,0,200,0,0,200,200,5,0,0,1.0,0,0,0.5,8,Siege,Castle,50,Siege Workshop
+Scorpion,0,0,80,0,80,35,3,0,6,2.0,0,1,1.0,9,Siege,Feudal,30,Siege Workshop
+Heavy Scorpion,0,0,80,0,80,45,4,0,7,2.0,0,1,1.0,10,Siege,Castle,30,Siege Workshop
+Mangonel,0,90,80,0,170,70,7,0,8,2.0,0,0,0.8,9,Siege,Feudal,35,Siege Workshop
+Onager,0,90,100,0,190,80,8,0,9,1.5,0,0,0.8,10,Siege,Imperial,35,Siege Workshop
+Bombard Cannon,0,0,120,0,120,200,20,0,12,3.6,0,1,0.6,12,Siege,Imperial,40,Siege Workshop
+Trebuchet,0,200,100,0,300,80,12,1,12,3.6,0,0,0.6,13,Siege,Imperial,60,Castle
+Petard,0,0,0,0,0,30,30,0,0,0.3,0,0,1.0,3,Siege,Castle,8,Castle
+Demolition Raft,0,90,0,0,90,100,150,0,0,0.5,0,0,1.0,8,Siege,Imperial,30,Dock
+Galley,0,90,0,0,90,70,5,4,4,2.0,0,3,1.3,5,Naval,Feudal,30,Dock
+War Galley,0,90,0,0,90,85,6,5,5,2.0,0,4,1.3,6,Naval,Castle,35,Dock
+Galleon,0,100,0,0,100,120,6,6,6,2.0,0,4,1.3,8,Naval,Imperial,40,Dock
+Fire Ship,0,80,50,0,130,80,1,6,5,2.0,0,4,1.3,4,Naval,Castle,30,Dock
+Demolition Ship,0,90,50,0,140,100,20,8,2,1.0,0,0,1.3,3,Naval,Feudal,45,Dock
+Cannon Galleon,0,120,150,0,270,160,2,20,12,1.0,0,1,1.1,13,Naval,Imperial,40,Dock
+Monk,0,0,100,0,100,30,1,0,9,3.5,0,1,0.8,9,Support,Feudal,50,Monastery
+Priest,0,0,150,0,150,40,1,0,11,4.0,0,1,0.8,10,Support,Castle,50,Monastery
+Inferno Unit,0,0,0,0,0,0,0,0,0,0.0,0,0,0.0,0,Support,Castle,0,Monastery

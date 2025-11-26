@@ -13,3 +13,23 @@ This chatbot provides intelligent, context-aware answers about Age of Empires ga
 - 🛠️ **LangChain Tools**: Custom tools for game data queries and retrieval
 - 📚 **Rich Knowledge Base**: Ingests wikis, manuals, guides, and strategy content
 - 🎮 **Multi-Version Support**: Covers AoE I, II, III, IV, and Mythology
+
+## ️Stack Tecnológico
+| Component | Tech |
+|-----------|-----------|
+| Backend | Python |
+| LLM Framework | LangChain |
+| Embeddings | Sentence Transformers |
+| Vector DB | FAISS |
+| CLI | Typer + Rich |
+| Testing | Pytest |
+
+## Usage
+python -m src.main --mode interactive
+
+## Contact
+For questions, suggestions, or contributions, please open an issue or contact Sebastián Troccoli at sctroccoli@gmail.com
+If you find this project useful, consider starring the repository! ⭐
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.

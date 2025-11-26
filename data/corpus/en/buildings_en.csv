@@ -1,0 +1,25 @@
+Building,Food_Cost,Wood_Cost,Gold_Cost,Stone_Cost,Total_Cost,HP,Build_Time,Can_Garrison,Age,Function
+Town Center,275,0,0,0,275,2400,130,Yes,Dark,Economic/Military
+House,0,25,0,0,25,35,20,No,Dark,Housing
+Mill,100,0,0,0,100,800,30,No,Dark,Food Production
+Lumber Camp,0,100,0,0,100,600,30,No,Dark,Wood Production
+Mining Camp,0,100,0,0,100,600,30,No,Dark,Gold Production
+Quarry,0,0,0,100,100,600,30,No,Feudal,Stone Production
+Barracks,175,0,0,0,175,800,50,No,Feudal,Military - Infantry
+Archery Range,175,0,0,0,175,700,45,No,Feudal,Military - Ranged
+Stable,150,0,0,0,150,800,50,No,Feudal,Military - Cavalry
+Siege Workshop,200,0,0,0,200,800,60,No,Castle,Military - Siege
+Castle,900,0,0,650,1550,3200,240,Yes,Castle,Military - Unique
+Monastery,175,0,50,0,225,1200,60,Yes,Feudal,Tech/Support
+Blacksmith,0,0,0,0,0,800,45,No,Feudal,Tech Upgrades
+Market,0,75,0,0,75,1200,80,No,Feudal,Economic/Trading
+Watch Tower,0,125,0,125,250,600,45,Yes,Castle,Defense - Arrow
+Bombard Tower,0,125,0,125,250,600,50,Yes,Imperial,Defense - Cannon
+Fortified Wall,0,0,0,250,250,300,20,No,Castle,Defense - Wall
+Palisade Wall,0,30,0,0,30,50,15,No,Feudal,Defense - Wall
+Gate,0,150,0,0,150,600,40,No,Feudal,Defense - Gate
+Fish Trap,0,0,0,0,0,100,0,No,Feudal,Food Production
+Dock,0,100,0,0,100,1200,50,Yes,Feudal,Naval
+Harbor,0,0,0,0,0,1200,40,Yes,Castle,Naval/Upgrades
+Wonder,1000,0,0,0,1000,1000,400,No,Imperial,Victory Condition
+Storage,0,100,0,0,100,1200,50,No,Castle,Resource Storage
