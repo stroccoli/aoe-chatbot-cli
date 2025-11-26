@@ -8,15 +8,9 @@ load_dotenv()
 # Project Paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-CORPUS_DIR = DATA_DIR / "corpus"
+CORPUS_DIR = DATA_DIR / "corpus/es"
 VECTORSTORE_DIR = DATA_DIR / "vectorstore"
 LOGS_DIR = BASE_DIR / "logs"
-
-# Crear directorios si no existen
-DATA_DIR.mkdir(exist_ok=True)
-CORPUS_DIR.mkdir(exist_ok=True)
-VECTORSTORE_DIR.mkdir(exist_ok=True)
-LOGS_DIR.mkdir(exist_ok=True)
 
 # Model Configuration
 EMBEDDINGS_MODEL = os.getenv("EMBEDDINGS_MODEL", "sentence-transformers/all-MiniLM-L6-v2")

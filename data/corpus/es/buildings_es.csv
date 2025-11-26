@@ -1,0 +1,25 @@
+Edificio,Costo_Alimento,Costo_Madera,Costo_Oro,Costo_Piedra,Costo_Total,PV,Tiempo_Construccion,Puede_Garnizonar,Era,Funcion
+Centro Urbano,0,275,0,0,275,2400,130,Sí,Edad Oscura,Económico/Militar
+Casa,0,25,0,0,25,35,20,No,Edad Oscura,Vivienda
+Molino,0,100,0,0,100,800,30,No,Edad Oscura,Producción de Alimento
+Campamento Maderero,0,100,0,0,100,600,30,No,Edad Oscura,Producción de Madera
+Campamento Minero,0,100,0,0,100,600,30,No,Edad Oscura,Producción de Oro/Piedra
+Cantera,0,100,0,0,100,600,30,No,Edad Oscura,Producción de Piedra
+Cuartel,0,175,0,0,175,800,50,No,Edad Feudal,Militar - Infantería
+Arquería,0,175,0,0,175,700,45,No,Edad Feudal,Militar - Rango
+Establos,0,175,0,0,175,800,50,No,Edad Feudal,Militar - Caballería
+Taller de Maquinaria de Asedio,0,200,0,0,200,800,60,No,Edad de Castillos,Militar - Asedio
+Castillo,0,0,0,650,650,4800,200,Sí,Edad de Castillos,Militar - Única
+Monasterio,0,175,0,0,175,1200,60,Sí,Edad de Castillos,Religión/Apoyo
+Herrería,0,150,0,0,150,1000,40,No,Edad Feudal,Mejoras Tecnológicas
+Mercado,0,175,0,0,175,1200,60,No,Edad Feudal,Económico/Comercio
+Torre de Vigilancia,0,25,0,125,150,1020,50,Sí,Edad Feudal,Defensa - Flechas
+Torre de Bombarda,0,100,0,125,225,2150,80,Sí,Edad Imperial,Defensa - Cañón
+Muralla,0,0,0,5,5,180,15,No,Edad de Castillos,Defensa - Muralla
+Empalizada,0,3,0,0,3,75,1,No,Edad Oscura,Defensa - Muralla
+Puerta,0,30,0,0,30,900,35,No,Edad Feudal,Defensa - Puerta
+Trampa para Peces,0,100,0,0,100,100,40,No,Edad Feudal,Producción de Alimento
+Muelle,0,150,0,0,150,1800,60,Sí,Edad Oscura,Naval
+Puerto,0,0,0,0,0,2500,60,Sí,Edad Imperial,Naval/Mejoras
+Maravilla,0,0,0,1000,1000,4800,350,No,Edad Imperial,Condición de Victoria
+Almacén,0,100,0,0,100,1200,50,No,Edad Oscura,Almacenamiento de Recursos

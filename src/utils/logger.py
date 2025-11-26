@@ -17,10 +17,9 @@ root_logger = logging.getLogger()
 root_logger.setLevel(LOG_LEVEL)
 root_logger.addHandler(console_handler)
 
-def get_logger(name: str) -&gt; logging.Logger:
+def get_logger(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
-# sample usage
 if __name__ == "__main__":
     logger = get_logger(__name__)
     logger.info("Logger initialized successfully")
